@@ -89,9 +89,7 @@ function AppContent() {
                 <Download className="h-12 w-12 text-white" />
               </div>
             </div>
-            <h1 className="text-5xl font-bold text-white mb-4">
-              Video Downloader Pro
-            </h1>
+            <h1 className="text-5xl font-bold text-white mb-4">VideoGrab</h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               Download videos from YouTube, Instagram Reels, and TikTok with
               ease. High quality, fast downloads, and professional features.
