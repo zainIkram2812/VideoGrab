@@ -14,13 +14,10 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Connect to MongoDB
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost:27017/videodownloader",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 // Middleware
 app.use(helmet());
